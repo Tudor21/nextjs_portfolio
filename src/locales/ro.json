@@ -87,59 +87,112 @@
   },
   "technologies": [
     {
-      "logoPath": "/logos/logo-unity.png",
-      "title": "Dezvoltare software cu Unity",
-      "description": "Unity reprezintă o platformă esențială în activitatea mea de dezvoltare a aplicațiilor interactive. Datorită suportului multi-platformă și instrumentelor avansate pentru conținut 2D și 3D, Unity mă ajută să realizez proiecte educaționale, simulări și soluții de training. Sistemul de fizică robust, instrumentele de animație și scriptarea extinsă permit crearea unor experiențe captivante, dinamice și de înaltă calitate."
-    },
-    {
-      "logoPath": "/logos/logo-unityGame.png",
-      "title": "Dezvoltare jocuri Unity",
-      "description": "Dezvoltarea de jocuri cu Unity reprezintă o adevărată pasiune pentru mine. De la proiectarea mecanicilor de joc, până la optimizarea performanței, mă implic în toate etapele pentru a crea jocuri captivante și interactive. Datorită posibilității de publicare pe mai multe platforme, pot ajunge cu ușurință la un public variat. Particip activ în comunitatea dezvoltatorilor pentru a fi mereu la curent cu cele mai noi tehnici și bune practici."
-    },
-    {
-      "logoPath": "/logos/logo-unityARVR.png",
-      "title": "Unity VR/AR",
-      "description": "Dezvoltarea de proiecte VR și AR cu Unity este o activitate deosebit de satisfăcătoare. Unity oferă instrumente și framework-uri pentru crearea unor experiențe virtuale și augmentate captivante, ce depășesc limitele interacțiunii clasice. În VR pot construi medii complet imersive, iar în AR pot îmbina lumea digitală cu realitatea, pentru experiențe interactive și inovatoare."
-    },
-    {
-      "logoPath": "/logos/logo-CSharp.png",
-      "title": "Unity C#",
-      "description": "Programarea în C# în cadrul Unity este fundamentală pentru activitatea mea. Utilizând C#, implementez mecanici de joc, gestionez stări și dezvolt sisteme complexe cu eficiență. Integrarea avansată cu API-ul Unity îmi permite să creez gameplay interactiv și responsiv, de la funcționalități simple la comportamente AI avansate, sporind performanța și scalabilitatea aplicațiilor."
-    },
-    {
-      "logoPath": "/logos/logo-React.png",
+      "logoPath": "/images/logos/react-svgrepo-com.svg",
       "title": "React",
-      "description": "React este una dintre bibliotecile mele de bază pentru dezvoltarea interfețelor de utilizator. Arhitectura pe bază de componente permite crearea de elemente UI reutilizabile, gestionarea eficientă a stării și realizarea unor aplicații web dinamice și responsive. Ecosistemul React, inclusiv instrumente precum Redux și React Router, asigură scalabilitatea și întreținerea facilă a aplicațiilor."
+      "shortDescription": "React este una dintre bibliotecile mele de bază pentru dezvoltarea interfețelor de utilizator. Arhitectura pe bază de componente permite crearea de elemente UI reutilizabile, gestionarea eficientă a stării și realizarea unor aplicații web dinamice și responsive.",
+      "description": "React este una dintre bibliotecile mele de bază pentru dezvoltarea interfețelor de utilizator. Arhitectura pe bază de componente permite crearea de elemente UI reutilizabile, gestionarea eficientă a stării și realizarea unor aplicații web dinamice și responsive. Ecosistemul React, inclusiv instrumente precum Redux și React Router, asigură scalabilitatea și întreținerea facilă a aplicațiilor. Folosind React, pot asigura că aplicațiile mele sunt nu doar vizual atractive, ci și performante și întreținute. Mă mențin la curent cu ultimele funcționalități și bune practici în React pentru a folosi cele mai eficiente și eficace tehnici."
     },
     {
-      "logoPath": "/logos/logo-ThreeJS.png",
-      "title": "ThreeJS",
-      "description": "ThreeJS mi-a oferit oportunitatea de a crea grafică 3D inovatoare direct în browser. Folosind WebGL, pot construi scene și animații 3D complexe, oferind experiențe vizuale captivante și interactive. ThreeJS este un instrument esențial pentru realizarea de vizualizări, simulări și jocuri 3D, aducând valoare adăugată proiectelor digitale."
-    },
-    {
-      "logoPath": "/logos/logo-typescript.png",
+      "logoPath": "/images/logos/typescript-2.svg",
       "title": "TypeScript",
-      "description": "TypeScript aduce un plus de siguranță și robustețe procesului meu de dezvoltare, asigurând verificarea tipurilor la compilare. Mă ajută să identific rapid erorile, să scriu cod mai întreținut și să folosesc instrumente avansate de dezvoltare. Definirea clară a tipurilor și integrarea cu framework-urile moderne fac din TypeScript o alegere ideală pentru proiecte scalabile."
+      "shortDescription": "TypeScript aduce un plus de siguranță și robustețe procesului meu de dezvoltare, asigurând verificarea tipurilor la compilare. Mă ajută să identific rapid erorile, să scriu cod mai întreținut și să folosesc instrumente avansate de dezvoltare.",
+      "description": "TypeScript aduce un plus de siguranță și robustețe procesului meu de dezvoltare, asigurând verificarea tipurilor la compilare. Mă ajută să identific rapid erorile, să scriu cod mai întreținut și să folosesc instrumente avansate de dezvoltare. Apreciez modul în care TypeScript îmi permite să scriu cod mai fiabil și scalabil. Prin utilizarea TypeScript, pot defini interfețe și tipuri clare, ceea ce face codul meu mai previzibil și mai ușor de depanat. Acest lucru nu doar că îmbunătățește calitatea codului, ci îl face și mai ușor de înțeles și utilizat de alți dezvoltatori. Integrarea TypeScript cu framework-urile și bibliotecile JavaScript moderne îl face o alegere valoroasă pentru orice proiect de dezvoltare."
     },
     {
-      "logoPath": "/logos/logo-javascript.png",
+      "logoPath": "/images/logos/javascript-1.svg",
       "title": "JavaScript",
-      "description": "JavaScript este fundamentul dezvoltării web, iar experiența mea extinsă cu acest limbaj îmi permite să creez aplicații web dinamice și interactive. Folosesc JavaScript pentru a manipula DOM-ul, a gestiona evenimente și a realiza interfețe responsive. Sunt la curent cu ultimele standarde și framework-uri pentru a alege mereu cele mai potrivite soluții tehnologice."
+      "shortDescription": "JavaScript este fundamentul dezvoltării web, iar experiența mea extinsă cu acest limbaj îmi permite să creez aplicații web dinamice și interactive.",
+      "description": "JavaScript este fundamentul dezvoltării web, iar experiența mea extinsă cu acest limbaj îmi permite să creez aplicații web dinamice și interactive. Cu JavaScript, pot manipula DOM-ul, gestiona evenimente și face cereri asincrone pentru a crea interfețe utilizator responsive. Sunt versat în funcționalitățile JavaScript moderne precum sintaxa ES6+, promisiunile și async/await. În plus, am experiență cu diverse framework-uri și biblioteci JavaScript, ceea ce îmi permite să aleg instrumentele potrivite pentru diferite proiecte. Înțelegerea mea profundă a JavaScript îmi permite să scriu cod curat, eficient și întreținut, îmbunătățind experiența generală a utilizatorului."
     },
     {
-      "logoPath": "/logos/logo-CPlusPlus.png",
+      "logoPath": "/images/logos/html-1.svg",
+      "title": "HTML",
+      "shortDescription": "HTML este fundamentul dezvoltării web, oferind structura și marcajul semantic pentru tot conținutul web. Folosesc funcționalitățile HTML5 pentru a crea pagini web accesibile și bine structurate.",
+      "description": "HTML este fundamentul dezvoltării web, oferind structura și marcajul semantic pentru tot conținutul web. Folosesc funcționalitățile HTML5 pentru a crea pagini web accesibile și bine structurate, optimizate pentru motoarele de căutare și cititoarele de ecran. Expertiza mea include elemente HTML semantice, formulare, integrare multimedia și asigurarea compatibilității cross-browser. Prioritizez scrierea unui marcaj curat și semantic care îmbunătățește atât experiența utilizatorului, cât și performanța SEO. Înțelegerea rolului HTML în ecosistemul mai larg al dezvoltării web îmi permite să creez aplicații web robuste și întreținute."
+    },
+    {
+      "logoPath": "/images/logos/css-3.svg",
+      "title": "CSS",
+      "shortDescription": "CSS îmi permite să creez designuri web vizual atractive și responsive. Folosesc funcționalitățile CSS moderne, inclusiv Flexbox, Grid și variabile CSS, pentru a construi interfețe utilizator elegante.",
+      "description": "CSS îmi permite să creez designuri web vizual atractive și responsive. Folosesc funcționalitățile CSS moderne, inclusiv Flexbox, Grid și variabile CSS, pentru a construi interfețe utilizator elegante. Expertiza mea în CSS se extinde la animații, tranziții și crearea de layout-uri responsive care funcționează perfect pe toate dimensiunile dispozitivelor. Înțeleg importanța arhitecturii CSS întreținute și folosesc metodologii precum BEM pentru a menține stilurile organizate. Fie că lucrez cu CSS simplu sau cu soluții CSS-in-JS, mă asigur că stilurile mele sunt performante, accesibile și vizual consistente."
+    },
+    {
+      "logoPath": "/images/logos/nodejs-1.svg",
+      "title": "Node.js",
+      "shortDescription": "Node.js îmi permite să construiesc aplicații server-side scalabile folosind JavaScript. Îl folosesc pentru a crea API-uri RESTful, a gestiona operațiuni pe baze de date și a construi aplicații în timp real.",
+      "description": "Node.js îmi permite să construiesc aplicații server-side scalabile folosind JavaScript. Îl folosesc pentru a crea API-uri RESTful, a gestiona operațiuni pe baze de date și a construi aplicații în timp real cu WebSockets. Experiența mea cu Node.js include lucrul cu framework-uri precum Express, gestionarea operațiunilor asincrone cu async/await și manipularea operațiunilor pe sistemul de fișiere. Înțeleg arhitectura bazată pe evenimente a Node.js și cum să o folosesc pentru a construi aplicații de înaltă performanță. Fie că construiesc microservicii, creez endpoint-uri API sau dezvolt soluții de renderizare server-side, Node.js este un instrument esențial în toolkit-ul meu de dezvoltare."
+    },
+    {
+      "logoPath": "/images/logos/Threejs-logo.svg",
+      "title": "Three.js",
+      "shortDescription": "Three.js mi-a deschis posibilități captivante în crearea graficii 3D pentru web. Folosind WebGL, pot construi scene și animații 3D complexe, oferind experiențe imersive direct în browser.",
+      "description": "Three.js mi-a deschis posibilități captivante în crearea graficii 3D pentru web. Folosind WebGL, pot construi scene și animații 3D complexe, oferind experiențe imersive direct în browser. Este un instrument puternic pentru a adăuga profunzime și interactivitate proiectelor web. Cu Three.js, am creat vizualizări 3D interactive, simulări și jocuri. Abilitatea de a manipula obiecte 3D, aplica texturi și crea efecte de iluminare realiste mi-a permis să depășesc limitele a ceea ce este posibil pe web. Fie că este pentru instrumente educaționale, experiențe de marketing sau divertisment, Three.js oferă versatilitatea și puterea necesare pentru a aduce ideile la viață."
+    },
+    {
+      "logoPath": "/images/logos/unity-69.svg",
+      "title": "Unity",
+      "shortDescription": "Unity este o platformă versatilă pe care o folosesc pentru dezvoltarea aplicațiilor software interactive, jocuri și experiențe VR/AR. Suportul său pentru multiple platforme îl face esențial în toolkit-ul meu de dezvoltare.",
+      "description": "Unity este o platformă versatilă pe care o folosesc pentru dezvoltarea aplicațiilor software interactive, jocuri și experiențe VR/AR. Suportul său pentru multiple platforme și instrumentele puternice pentru crearea de conținut 2D și 3D îl fac o parte esențială a toolkit-ului meu de dezvoltare. Magazinul extins de assets Unity și resursele comunității sunt de neprețuit. Cu Unity, am dezvoltat o gamă de aplicații, de la simulări educaționale la instrumente de training interactive și experiențe VR imersive. Sistemul robust de fizică al motorului, instrumentele de animație și capacitățile extinse de scripting îmi permit să creez experiențe captivante și dinamice. Abilitatea Unity de a implementa pe multiple platforme, inclusiv mobile, desktop și dispozitive VR/AR, asigură că aplicațiile mele pot ajunge la un public larg."
+    },
+    {
+      "logoPath": "/images/logos/c--4.svg",
       "title": "C++",
-      "description": "C++ a reprezentat o etapă definitorie în formarea mea profesională. Datorită performanței și eficienței, este ideal pentru dezvoltarea de aplicații de sistem și jocuri. Prin stăpânirea C++, optimizez codul, gestionez eficient resursele și pot aborda proiecte ce necesită procesare rapidă, dobândind totodată o înțelegere aprofundată a principiilor de bază ale informaticii."
+      "shortDescription": "C++ a reprezentat o etapă definitorie în formarea mea profesională. Datorită performanței și eficienței, este ideal pentru dezvoltarea de aplicații de sistem și jocuri.",
+      "description": "C++ a reprezentat o etapă definitorie în formarea mea profesională. Datorită performanței și eficienței, este ideal pentru dezvoltarea de aplicații de sistem și jocuri. Stăpânirea C++ mi-a permis să optimizez codul, să gestionez eficient memoria și să abordez sarcini de procesare rapidă. C++ este un limbaj puternic care oferă control fin asupra resurselor sistemului. Acest control este esențial pentru dezvoltarea aplicațiilor de înaltă performanță, precum simulările în timp real și jocurile. Prin înțelegerea funcționalităților avansate ale C++, precum template-urile, polimorfismul și multithreading-ul, pot scrie cod eficient și scalabil. Experiența mea cu C++ mi-a oferit și o înțelegere mai profundă a principiilor informaticii și a conceptelor de programare de nivel scăzut."
     },
     {
-      "logoPath": "/logos/logo-adobeIllustrator.png",
+      "logoPath": "/images/logos/adobe-illustrator-cc-3.svg",
       "title": "Adobe Illustrator",
-      "description": "Adobe Illustrator este instrumentul meu principal pentru realizarea graficii vectoriale și a ilustrațiilor. Funcțiile sale avansate de desen, colorare și tipografie mă ajută să produc materiale vizuale de înaltă calitate, atât pentru web cât și pentru print. Integrarea cu suita Adobe Creative Cloud facilitează realizarea unui workflow eficient și a unui design coerent pe toate mediile."
+      "shortDescription": "Adobe Illustrator este instrumentul meu principal pentru realizarea graficii vectoriale și a ilustrațiilor. Funcțiile sale avansate de desen, colorare și tipografie mă ajută să produc materiale vizuale de înaltă calitate.",
+      "description": "Adobe Illustrator este instrumentul meu principal pentru realizarea graficii vectoriale și a ilustrațiilor. Funcțiile sale avansate de desen, colorare și tipografie mă ajută să produc materiale vizuale de înaltă calitate, esențiale atât pentru proiecte web cât și pentru print. Precizia și flexibilitatea Illustrator permit crearea de grafică detaliată și scalabilă, de la logo-uri și icoane la ilustrații complexe și infografice. Abilitatea de a lucra cu vectori asigură că designurile mele rămân clare și precise la orice dimensiune. Apreciez și integrarea Illustrator cu alte aplicații Adobe Creative Cloud, care îmi permite să optimizez workflow-ul și să creez designuri vizuale coerente pe diferite medii."
     },
     {
-      "logoPath": "/logos/logo-davinci.png",
-      "title": "DaVinci Resolve",
-      "description": "DaVinci Resolve este soluția mea preferată pentru editarea video. Cu ajutorul său, pot realiza montaj avansat, corecție de culoare și post-producție audio la nivel profesional. Îmi oferă creativitate, precizie și control total asupra produsului final, asigurând materiale video cu impact și prezentare impecabilă."
+      "logoPath": "/images/logos/postgresql.svg",
+      "title": "PostgreSQL",
+      "shortDescription": "PostgreSQL este sistemul meu preferat de management al bazelor de date relaționale. Îl folosesc pentru a proiecta scheme de bază de date robuste, a scrie interogări eficiente și a asigura integritatea datelor în aplicațiile mele.",
+      "description": "PostgreSQL este sistemul meu preferat de management al bazelor de date relaționale. Îl folosesc pentru a proiecta scheme de bază de date robuste, a scrie interogări eficiente și a asigura integritatea datelor în aplicațiile mele. Experiența mea cu PostgreSQL include optimizarea performanței interogărilor, gestionarea migrațiilor bazelor de date și implementarea relațiilor complexe între tabele. Înțeleg funcționalitățile avansate ale PostgreSQL, precum suportul JSON, căutarea full-text și managementul tranzacțiilor. Fie că construiesc API-uri RESTful care interacționează cu PostgreSQL sau proiectez scheme de bază de date pentru aplicații scalabile, PostgreSQL oferă fiabilitatea și performanța de care am nevoie pentru aplicații gata pentru producție."
+    },
+    {
+      "logoPath": "/images/logos/tailwind-css-2.svg",
+      "title": "Tailwind CSS",
+      "shortDescription": "Tailwind CSS revoluționează abordarea mea de styling oferind clase CSS utility-first. Îmi permite să construiesc designuri personalizate rapid, fără a scrie CSS personalizat.",
+      "description": "Tailwind CSS revoluționează abordarea mea de styling oferind clase CSS utility-first. Îmi permite să construiesc designuri personalizate rapid, fără a scrie CSS personalizat. Clasele utility ale Tailwind îmi permit să creez designuri responsive și accesibile cu ușurință. Apreciez modul în care Tailwind promovează consistența între proiecte și face ușoară menținerea sistemelor de design. Opțiunile de personalizare ale framework-ului, inclusiv configurarea temei și sistemul de plugin-uri, îmi permit să îl adaptez la nevoile specifice ale proiectului. Fie că construiesc pagini de destinație sau aplicații complexe, Tailwind CSS accelerează workflow-ul meu de dezvoltare menținând în același timp flexibilitatea designului."
+    },
+    {
+      "logoPath": "/images/logos/styled-components-1.svg",
+      "title": "Styled Components",
+      "shortDescription": "Styled Components îmi permite să scriu CSS-in-JS cu stiluri definite la nivel de componentă. Îmi permite să creez componente dinamice, tematizabile care sunt strâns integrate cu React.",
+      "description": "Styled Components îmi permite să scriu CSS-in-JS cu stiluri definite la nivel de componentă. Îmi permite să creez componente dinamice, tematizabile care sunt strâns integrate cu React. Această abordare elimină conflictele de stil și face ușoară crearea de componente stilizate reutilizabile. Folosesc Styled Components pentru a construi sisteme de design, a crea aplicații tematizabile și a implementa designuri responsive. Abilitatea de a folosi logica JavaScript în stiluri îmi permite să creez styling dinamic bazat pe props și state. Suportul pentru server-side rendering al Styled Components și optimizările de performanță îl fac o alegere excelentă pentru aplicațiile de producție."
+    },
+    {
+      "logoPath": "/images/logos/vitejs.svg",
+      "title": "Vite",
+      "shortDescription": "Vite este instrumentul meu preferat de build pentru dezvoltarea web modernă. Hot module replacement-ul său extrem de rapid și build-urile optimizate pentru producție îmbunătățesc semnificativ experiența mea de dezvoltare.",
+      "description": "Vite este instrumentul meu preferat de build pentru dezvoltarea web modernă. Hot module replacement-ul său extrem de rapid și build-urile optimizate pentru producție îmbunătățesc semnificativ experiența mea de dezvoltare. Utilizarea de module ES native de către Vite în timpul dezvoltării oferă pornire instantanee a serverului și actualizări hot aproape instantanee. Apreciez simplitatea Vite și ecosistemul său de plugin-uri care extinde funcționalitatea pentru diverse framework-uri. Fie că lucrez cu React, Vue sau JavaScript vanilla, Vite oferă o experiență de dezvoltare fără probleme. Build-urile optimizate pentru producție ale instrumentului asigură că aplicațiile mele se încarcă rapid și funcționează bine în medii de producție."
+    },
+    {
+      "logoPath": "/images/logos/github-icon-2.svg",
+      "title": "GitHub",
+      "shortDescription": "GitHub este esențial în workflow-ul meu pentru controlul versiunilor și colaborare. Îl folosesc pentru a gestiona repository-uri de cod, a colabora cu echipe și a contribui la proiecte open-source.",
+      "description": "GitHub este esențial în workflow-ul meu pentru controlul versiunilor și colaborare. Îl folosesc pentru a gestiona repository-uri de cod, a colabora cu echipe și a contribui la proiecte open-source. Workflow-ul meu GitHub include utilizarea branch-urilor, pull request-urilor și urmărirea problemelor pentru a gestiona dezvoltarea proiectului. Înțeleg fundamentalele Git, inclusiv strategiile de branching, conflictele de merge și rebasing-ul. Funcționalitățile GitHub, precum Actions pentru CI/CD, GitHub Pages pentru hosting și instrumentele de management al proiectelor, mă ajută să mențin workflow-uri de dezvoltare organizate și eficiente. Fie că lucrez singur sau ca parte a unei echipe, GitHub oferă instrumentele de care am nevoie pentru a construi și menține software de înaltă calitate."
+    },
+    {
+      "logoPath": "/images/logos/DBeaver_logo.svg",
+      "title": "DBeaver",
+      "shortDescription": "DBeaver este instrumentul meu preferat de management al bazelor de date. Oferă un client de bază de date universal care suportă multiple sisteme de bază de date, făcându-l neprețuit pentru administrarea și dezvoltarea bazelor de date.",
+      "description": "DBeaver este instrumentul meu preferat de management al bazelor de date. Oferă un client de bază de date universal care suportă multiple sisteme de bază de date, făcându-l neprețuit pentru administrarea și dezvoltarea bazelor de date. Folosesc DBeaver pentru a scrie și executa interogări SQL, a gestiona scheme de bază de date și a vizualiza relațiile bazelor de date. Interfața intuitivă a instrumentului și funcționalitățile puternice mă ajută să lucrez eficient cu bazele de date. Fie că proiectez noi structuri de bază de date, optimizez interogări existente sau gestioneaz migrații de date, DBeaver oferă funcționalitatea de care am nevoie. Suportul său pentru diverse sisteme de bază de date, inclusiv PostgreSQL, MySQL și SQLite, îl face un instrument versatil în arsenalul meu de dezvoltare."
+    },
+    {
+      "logoPath": "/images/logos/postman-icon-svgrepo-com.svg",
+      "title": "Postman",
+      "shortDescription": "Postman este instrumentul meu de bază pentru dezvoltarea și testarea API-urilor. Îmi permite să proiectez, testez și documentez API-uri eficient, optimizând workflow-ul meu de dezvoltare backend.",
+      "description": "Postman este instrumentul meu de bază pentru dezvoltarea și testarea API-urilor. Îmi permite să proiectez, testez și documentez API-uri eficient, optimizând workflow-ul meu de dezvoltare backend. Folosesc Postman pentru a testa API-uri RESTful, a gestiona colecții de API-uri și a automatiza testarea API-urilor. Funcționalitățile instrumentului, precum variabilele de mediu, scripturile pre-request și scripturile de test, mă ajută să creez suite de teste API cuprinzătoare. Funcționalitățile de colaborare ale Postman îmi permit să împărtășesc colecții de API-uri cu membrii echipei și să mențin documentația API-urilor. Fie că dezvolt API-uri noi sau integrez cu servicii terțe, Postman oferă instrumentele de care am nevoie pentru a asigura fiabilitatea și funcționalitatea API-urilor."
+    },
+    {
+      "logoPath": "/images/logos/affinity-designer.svg",
+      "title": "Affinity Designer",
+      "shortDescription": "Affinity Designer este un editor puternic de grafică vectorială pe care îl folosesc ca alternativă la Adobe Illustrator. Oferă instrumente de design de nivel profesional pentru crearea de ilustrații, icoane și designuri UI.",
+      "description": "Affinity Designer este un editor puternic de grafică vectorială pe care îl folosesc ca alternativă la Adobe Illustrator. Oferă instrumente de design de nivel profesional pentru crearea de ilustrații, icoane și designuri UI. Workflow-ul non-destructiv al Affinity Designer și instrumentele vectoriale avansate îmi permit să creez designuri complexe cu precizie. Apreciez performanța software-ului și modelul său de achiziție unică. Compatibilitatea instrumentului cu diverse formate de fișiere și integrarea sa cu alte produse Affinity îl fac o adăugare valoroasă la toolkit-ul meu de design. Fie că creez logo-uri, ilustrații sau mockup-uri UI, Affinity Designer oferă funcționalitatea de care am nevoie pentru a aduce ideile mele de design la viață."
     }
   ],
   "navigation": {
@@ -154,5 +207,9 @@
     "view-button": "Vizualizați CV",
     "title": "Descărcați CV",
     "description": "Descărcați CV-ul meu pentru a vedea experiența și competențele mele."
+  },
+  "skillsModal": {
+    "learnMore": "Află mai mult",
+    "close": "Închide"
   }
 }

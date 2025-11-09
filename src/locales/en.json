@@ -87,59 +87,112 @@
   },
   "technologies": [
     {
-      "logoPath": "/logos/logo-unity.png",
-      "title": "Unity Software Development",
-      "description": "Unity is a versatile platform that I use for developing interactive software applications. Its support for multiple platforms and powerful tools for 2D and 3D content creation make it an essential part of my development toolkit. Unity's extensive asset store and community resources are invaluable. With Unity, I have developed a range of applications, from educational simulations to interactive training tools. The engine's robust physics system, animation tools, and extensive scripting capabilities allow me to create engaging and dynamic experiences. Unity's ability to deploy to multiple platforms, including mobile, desktop, and VR/AR devices, ensures that my applications can reach a wide audience."
-    },
-    {
-      "logoPath": "/logos/logo-unityGame.png",
-      "title": "Unity Game Development",
-      "description": "Developing games with Unity is a passion of mine. From designing game mechanics to optimizing performance, I enjoy the entire process of creating engaging and interactive games. Unity's cross-platform capabilities allow me to reach a broad audience with my projects. Game development requires a combination of creativity, technical skill, and attention to detail. In Unity, I can create complex game worlds, implement gameplay logic, and design intuitive user interfaces. The ability to test and iterate quickly helps me refine the game experience and ensure that it is both fun and functional. I also stay engaged with the game development community to learn new techniques and share my knowledge."
-    },
-    {
-      "logoPath": "/logos/logo-unityARVR.png",
-      "title": "Unity VR/AR",
-      "description": "Working on VR and AR projects with Unity has been incredibly rewarding. Unity provides the tools and frameworks necessary to build immersive virtual and augmented reality experiences, pushing the boundaries of user interaction and engagement. VR and AR development involves unique challenges and opportunities. In VR, I can create fully immersive environments that transport users to new worlds. In AR, I can blend digital content with the real world, creating interactive and informative experiences. Unity's support for various VR and AR platforms, combined with its powerful development tools, allows me to explore new ways of engaging and delighting users."
-    },
-    {
-      "logoPath": "/logos/logo-CSharp.png",
-      "title": "Unity C#",
-      "description": "Unity C# development is a crucial part of my skill set. Using C# within Unity allows me to script game mechanics, manage game states, and implement complex systems efficiently. The versatility of C# and its deep integration with Unity's API enable me to create highly interactive and responsive gameplay experiences. With C#, I can handle everything from simple input handling to advanced AI behavior. This language's robust features, such as LINQ and async programming, also enhance the performance and scalability of my projects. My proficiency in Unity C# ensures that I can bring innovative ideas to life, whether for games, simulations, or interactive applications."
-    },
-    {
-      "logoPath": "/logos/logo-React.png",
+      "logoPath": "/images/logos/react-svgrepo-com.svg",
       "title": "React",
+      "shortDescription": "React is one of my go-to libraries for building user interfaces. Its component-based architecture allows me to create reusable UI elements, manage state efficiently, and build dynamic, responsive web applications.",
       "description": "React is one of my go-to libraries for building user interfaces. Its component-based architecture allows me to create reusable UI elements, manage state efficiently, and build dynamic, responsive web applications. I enjoy leveraging React's capabilities to enhance user experiences. React's ecosystem, including tools like Redux for state management and React Router for navigation, provides a robust framework for building scalable applications. By using React, I can ensure that my applications are not only visually appealing but also performant and maintainable. I also stay updated with the latest features and best practices in React to ensure that I am using the most efficient and effective techniques."
     },
     {
-      "logoPath": "/logos/logo-ThreeJS.png",
-      "title": "ThreeJS",
-      "description": "ThreeJS has opened up exciting possibilities for me in creating 3D graphics for the web. Using WebGL, I can build complex 3D scenes and animations, offering immersive experiences directly in the browser. It's a powerful tool for adding depth and interactivity to web projects. With ThreeJS, I have created interactive 3D visualizations, simulations, and games. The ability to manipulate 3D objects, apply textures, and create realistic lighting effects has allowed me to push the boundaries of what is possible on the web. Whether it's for educational tools, marketing experiences, or entertainment, ThreeJS provides the versatility and power needed to bring ideas to life."
-    },
-    {
-      "logoPath": "/logos/logo-typescript.png",
+      "logoPath": "/images/logos/typescript-2.svg",
       "title": "TypeScript",
+      "shortDescription": "TypeScript enhances my development process by adding type safety to JavaScript. It helps me catch errors early, improves code maintainability, and provides robust tooling support.",
       "description": "TypeScript enhances my development process by adding type safety to JavaScript. It helps me catch errors early, improves code maintainability, and provides robust tooling support. I appreciate how TypeScript enables me to write more reliable and scalable code. By using TypeScript, I can define clear interfaces and types, which makes my code more predictable and easier to debug. This not only improves the quality of the code but also makes it easier for other developers to understand and work with. TypeScript's integration with modern JavaScript frameworks and libraries makes it a valuable addition to any development project."
     },
     {
-      "logoPath": "/logos/logo-javascript.png",
+      "logoPath": "/images/logos/javascript-1.svg",
       "title": "JavaScript",
+      "shortDescription": "JavaScript is a fundamental technology for web development, and I have extensive experience using it to build dynamic and interactive web applications.",
       "description": "JavaScript is a fundamental technology for web development, and I have extensive experience using it to build dynamic and interactive web applications. With JavaScript, I can manipulate the DOM, handle events, and make asynchronous requests to create responsive user interfaces. I am well-versed in modern JavaScript features such as ES6+ syntax, promises, and async/await. Additionally, I have experience with various JavaScript frameworks and libraries, which allows me to choose the right tools for different projects. My deep understanding of JavaScript enables me to write clean, efficient, and maintainable code, enhancing the overall user experience."
     },
     {
-      "logoPath": "/logos/logo-CPlusPlus.png",
+      "logoPath": "/images/logos/html-1.svg",
+      "title": "HTML",
+      "shortDescription": "HTML is the foundation of web development, providing the structure and semantic markup for all web content. I use HTML5 features to create accessible, well-structured web pages.",
+      "description": "HTML is the foundation of web development, providing the structure and semantic markup for all web content. I use HTML5 features to create accessible, well-structured web pages that are optimized for search engines and screen readers. My expertise includes semantic HTML elements, forms, multimedia integration, and ensuring cross-browser compatibility. I prioritize writing clean, semantic markup that enhances both user experience and SEO performance. Understanding HTML's role in the broader web development ecosystem allows me to create robust and maintainable web applications."
+    },
+    {
+      "logoPath": "/images/logos/css-3.svg",
+      "title": "CSS",
+      "shortDescription": "CSS enables me to create visually appealing and responsive web designs. I leverage modern CSS features including Flexbox, Grid, and CSS variables to build elegant user interfaces.",
+      "description": "CSS enables me to create visually appealing and responsive web designs. I leverage modern CSS features including Flexbox, Grid, and CSS variables to build elegant user interfaces. My CSS expertise extends to animations, transitions, and creating responsive layouts that work seamlessly across all device sizes. I understand the importance of maintainable CSS architecture and use methodologies like BEM to keep styles organized. Whether working with plain CSS or CSS-in-JS solutions, I ensure that my styles are performant, accessible, and visually consistent."
+    },
+    {
+      "logoPath": "/images/logos/nodejs-1.svg",
+      "title": "Node.js",
+      "shortDescription": "Node.js allows me to build scalable server-side applications using JavaScript. I use it to create RESTful APIs, handle database operations, and build real-time applications.",
+      "description": "Node.js allows me to build scalable server-side applications using JavaScript. I use it to create RESTful APIs, handle database operations, and build real-time applications with WebSockets. My experience with Node.js includes working with frameworks like Express, managing asynchronous operations with async/await, and handling file system operations. I understand Node.js's event-driven architecture and how to leverage it for building high-performance applications. Whether it's building microservices, creating API endpoints, or developing server-side rendering solutions, Node.js is an essential tool in my development toolkit."
+    },
+    {
+      "logoPath": "/images/logos/Threejs-logo.svg",
+      "title": "Three.js",
+      "shortDescription": "Three.js has opened up exciting possibilities for me in creating 3D graphics for the web. Using WebGL, I can build complex 3D scenes and animations, offering immersive experiences directly in the browser.",
+      "description": "Three.js has opened up exciting possibilities for me in creating 3D graphics for the web. Using WebGL, I can build complex 3D scenes and animations, offering immersive experiences directly in the browser. It's a powerful tool for adding depth and interactivity to web projects. With Three.js, I have created interactive 3D visualizations, simulations, and games. The ability to manipulate 3D objects, apply textures, and create realistic lighting effects has allowed me to push the boundaries of what is possible on the web. Whether it's for educational tools, marketing experiences, or entertainment, Three.js provides the versatility and power needed to bring ideas to life."
+    },
+    {
+      "logoPath": "/images/logos/unity-69.svg",
+      "title": "Unity",
+      "shortDescription": "Unity is a versatile platform that I use for developing interactive software applications, games, and VR/AR experiences. Its support for multiple platforms makes it essential to my development toolkit.",
+      "description": "Unity is a versatile platform that I use for developing interactive software applications, games, and VR/AR experiences. Its support for multiple platforms and powerful tools for 2D and 3D content creation make it an essential part of my development toolkit. Unity's extensive asset store and community resources are invaluable. With Unity, I have developed a range of applications, from educational simulations to interactive training tools and immersive VR experiences. The engine's robust physics system, animation tools, and extensive scripting capabilities allow me to create engaging and dynamic experiences. Unity's ability to deploy to multiple platforms, including mobile, desktop, and VR/AR devices, ensures that my applications can reach a wide audience."
+    },
+    {
+      "logoPath": "/images/logos/c--4.svg",
       "title": "C++",
+      "shortDescription": "C++ has been a cornerstone in my programming journey. Its performance and efficiency make it ideal for systems programming and game development.",
       "description": "C++ has been a cornerstone in my programming journey. Its performance and efficiency make it ideal for systems programming and game development. Mastering C++ has allowed me to optimize code, manage memory effectively, and tackle high-speed processing tasks. C++ is a powerful language that provides fine-grained control over system resources. This control is essential for developing high-performance applications, such as real-time simulations and games. By understanding C++'s advanced features, such as templates, polymorphism, and multithreading, I can write efficient and scalable code. My experience with C++ has also given me a deeper understanding of computer science principles and low-level programming concepts."
     },
     {
-      "logoPath": "/logos/logo-adobeIllustrator.png",
+      "logoPath": "/images/logos/adobe-illustrator-cc-3.svg",
       "title": "Adobe Illustrator",
+      "shortDescription": "Adobe Illustrator is my tool of choice for creating vector graphics and illustrations. Its robust drawing, coloring, and typography tools enable me to produce high-quality visual content.",
       "description": "Adobe Illustrator is my tool of choice for creating vector graphics and illustrations. Its robust drawing, coloring, and typography tools enable me to produce high-quality visual content, essential for both web and print design projects. Illustrator's precision and flexibility allow me to create detailed and scalable graphics, from logos and icons to complex illustrations and infographics. The ability to work with vectors ensures that my designs remain crisp and clear at any size. I also appreciate Illustrator's integration with other Adobe Creative Cloud applications, which allows me to streamline my workflow and create cohesive visual designs across different media."
     },
     {
-      "logoPath": "/logos/logo-davinci.png",
-      "title": "DaVinci Resolve",
-      "description": "DaVinci Resolve is my go-to software for video editing. Its advanced editing, color correction, and audio post-production capabilities allow me to create polished videos with professional visual effects and seamless transitions. I enjoy the creativity and precision it offers. Video editing with DaVinci Resolve involves more than just cutting and arranging clips. It includes color grading to enhance the visual appeal, adding special effects to create stunning visuals, and fine-tuning audio to ensure clarity and impact. DaVinci Resolve's comprehensive set of tools and its intuitive interface make it possible to produce high-quality videos that tell compelling stories and engage audiences."
+      "logoPath": "/images/logos/postgresql.svg",
+      "title": "PostgreSQL",
+      "shortDescription": "PostgreSQL is my preferred relational database management system. I use it to design robust database schemas, write efficient queries, and ensure data integrity in my applications.",
+      "description": "PostgreSQL is my preferred relational database management system. I use it to design robust database schemas, write efficient queries, and ensure data integrity in my applications. My experience with PostgreSQL includes optimizing query performance, managing database migrations, and implementing complex relationships between tables. I understand PostgreSQL's advanced features such as JSON support, full-text search, and transaction management. Whether it's building RESTful APIs that interact with PostgreSQL or designing database schemas for scalable applications, PostgreSQL provides the reliability and performance I need for production-ready applications."
+    },
+    {
+      "logoPath": "/images/logos/tailwind-css-2.svg",
+      "title": "Tailwind CSS",
+      "shortDescription": "Tailwind CSS revolutionizes my approach to styling by providing utility-first CSS classes. It enables me to build custom designs quickly without writing custom CSS.",
+      "description": "Tailwind CSS revolutionizes my approach to styling by providing utility-first CSS classes. It enables me to build custom designs quickly without writing custom CSS. Tailwind's utility classes allow me to create responsive, accessible designs with ease. I appreciate how Tailwind promotes consistency across projects and makes it easy to maintain design systems. The framework's customization options, including theme configuration and plugin system, allow me to tailor it to specific project needs. Whether building landing pages or complex applications, Tailwind CSS accelerates my development workflow while maintaining design flexibility."
+    },
+    {
+      "logoPath": "/images/logos/styled-components-1.svg",
+      "title": "Styled Components",
+      "shortDescription": "Styled Components allows me to write CSS-in-JS with component-scoped styles. It enables me to create dynamic, themeable components that are tightly integrated with React.",
+      "description": "Styled Components allows me to write CSS-in-JS with component-scoped styles. It enables me to create dynamic, themeable components that are tightly integrated with React. This approach eliminates style conflicts and makes it easy to create reusable, styled components. I use Styled Components to build design systems, create themeable applications, and implement responsive designs. The ability to use JavaScript logic within styles allows me to create dynamic styling based on props and state. Styled Components' server-side rendering support and performance optimizations make it an excellent choice for production applications."
+    },
+    {
+      "logoPath": "/images/logos/vitejs.svg",
+      "title": "Vite",
+      "shortDescription": "Vite is my preferred build tool for modern web development. Its lightning-fast hot module replacement and optimized production builds significantly improve my development experience.",
+      "description": "Vite is my preferred build tool for modern web development. Its lightning-fast hot module replacement and optimized production builds significantly improve my development experience. Vite's use of native ES modules during development provides instant server start and near-instantaneous hot updates. I appreciate Vite's simplicity and its plugin ecosystem that extends functionality for various frameworks. Whether working with React, Vue, or vanilla JavaScript, Vite provides a seamless development experience. The tool's optimized production builds ensure that my applications load quickly and perform well in production environments."
+    },
+    {
+      "logoPath": "/images/logos/github-icon-2.svg",
+      "title": "GitHub",
+      "shortDescription": "GitHub is essential to my workflow for version control and collaboration. I use it to manage code repositories, collaborate with teams, and contribute to open-source projects.",
+      "description": "GitHub is essential to my workflow for version control and collaboration. I use it to manage code repositories, collaborate with teams, and contribute to open-source projects. My GitHub workflow includes using branches, pull requests, and issue tracking to manage project development. I understand Git fundamentals including branching strategies, merge conflicts, and rebasing. GitHub's features like Actions for CI/CD, GitHub Pages for hosting, and project management tools help me maintain organized and efficient development workflows. Whether working solo or as part of a team, GitHub provides the tools I need to build and maintain high-quality software."
+    },
+    {
+      "logoPath": "/images/logos/DBeaver_logo.svg",
+      "title": "DBeaver",
+      "shortDescription": "DBeaver is my preferred database management tool. It provides a universal database client that supports multiple database systems, making it invaluable for database administration and development.",
+      "description": "DBeaver is my preferred database management tool. It provides a universal database client that supports multiple database systems, making it invaluable for database administration and development. I use DBeaver to write and execute SQL queries, manage database schemas, and visualize database relationships. The tool's intuitive interface and powerful features help me work efficiently with databases. Whether I'm designing new database structures, optimizing existing queries, or managing data migrations, DBeaver provides the functionality I need. Its support for various database systems including PostgreSQL, MySQL, and SQLite makes it a versatile tool in my development arsenal."
+    },
+    {
+      "logoPath": "/images/logos/postman-icon-svgrepo-com.svg",
+      "title": "Postman",
+      "shortDescription": "Postman is my go-to tool for API development and testing. It allows me to design, test, and document APIs efficiently, streamlining my backend development workflow.",
+      "description": "Postman is my go-to tool for API development and testing. It allows me to design, test, and document APIs efficiently, streamlining my backend development workflow. I use Postman to test RESTful APIs, manage API collections, and automate API testing. The tool's features like environment variables, pre-request scripts, and test scripts help me create comprehensive API test suites. Postman's collaboration features enable me to share API collections with team members and maintain API documentation. Whether I'm developing new APIs or integrating with third-party services, Postman provides the tools I need to ensure API reliability and functionality."
+    },
+    {
+      "logoPath": "/images/logos/affinity-designer.svg",
+      "title": "Affinity Designer",
+      "shortDescription": "Affinity Designer is a powerful vector graphics editor that I use as an alternative to Adobe Illustrator. It provides professional-grade design tools for creating illustrations, icons, and UI designs.",
+      "description": "Affinity Designer is a powerful vector graphics editor that I use as an alternative to Adobe Illustrator. It provides professional-grade design tools for creating illustrations, icons, and UI designs. Affinity Designer's non-destructive workflow and advanced vector tools allow me to create complex designs with precision. I appreciate the software's performance and its one-time purchase model. The tool's compatibility with various file formats and its integration with other Affinity products makes it a valuable addition to my design toolkit. Whether creating logos, illustrations, or UI mockups, Affinity Designer provides the functionality I need to bring my design ideas to life."
     }
   ],
   "navigation": {
@@ -154,5 +207,9 @@
     "view-button": "View CV",
     "title": "Download my CV",
     "description": "Download my latest CV to see my experience and skills."
+  },
+  "skillsModal": {
+    "learnMore": "Learn More",
+    "close": "Close"
   }
 }
