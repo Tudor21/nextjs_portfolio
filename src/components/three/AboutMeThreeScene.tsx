@@ -3,16 +3,14 @@ import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Environment, ContactShadows, Float, OrbitControls } from "@react-three/drei";
 import { Model } from "@/components/three/Abstract_rainbow_translucent_pendant.jsx";
-import { useMediaQuery } from "react-responsive";
 
 const PendantScene: React.FC = () => {
-   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
-    const scale = isMobile ? 3 : 2;
+  // Removed useMediaQuery since this component only renders on desktop now
   return (
     <group>
       <Float speed={1} rotationIntensity={0.6} floatIntensity={0.6}>
         {/* The GLTF model */}
-        <Model scale={scale} position={[0, 0, 0]} />
+        <Model scale={2} position={[0, 0, 0]} />
       </Float>
       <ContactShadows scale={40} position={[0, -3, 0]} blur={2} opacity={0.25} far={20} />
     </group>
