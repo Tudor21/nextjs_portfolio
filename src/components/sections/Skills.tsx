@@ -1,94 +1,45 @@
+"use client";
+
 import { Card } from "@/components/ui/card";
 import { ChevronRight } from "lucide-react";
-import Link from "next/link";
 import * as React from "react";
-import {
-  Gemini,
-  Replit,
-  MagicUI,
-  VSCodium,
-  MediaWiki,
-  GooglePaLM,
-} from "@/components/logos";
+import Image from "next/image";
 import Button from "@/components/ui/button";
+import { useLanguage } from "@/providers/language-provider";
+import { SkillModal } from "@/components/ui/skill-modal";
 
 const Skills: React.FC = () => {
+  const { t } = useLanguage();
+  const technologies = t<Array<{
+    logoPath: string;
+    title: string;
+    shortDescription: string;
+    description: string;
+  }>>("technologies", []);
+
   return (
     <section id="skills" className="scroll-mt-24">
       <div className="pb-24 pt-12 md:pb-32 lg:pb-56 lg:pt-44">
         <div className="relative mx-auto max-w-6xl px-6 lg:block">
           <div className="text-center">
             <h2 className="text-balance text-3xl font-semibold md:text-4xl">
-              My Skills
+              {t("skills.title")}
             </h2>
             <p className="text-muted-foreground mt-6">
-              A list of my skills and technologies.
+              {t("skills.techTitle")}
             </p>
           </div>
 
           <div className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            <IntegrationCard
-              title="Google Gemini"
-              description="Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente."
-            >
-              <Gemini />
-            </IntegrationCard>
-
-            <IntegrationCard
-              title="Replit"
-              description="Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente."
-            >
-              <Replit />
-            </IntegrationCard>
-
-            <IntegrationCard
-              title="Replit"
-              description="Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente."
-            >
-              <Replit />
-            </IntegrationCard>
-
-            <IntegrationCard
-              title="Replit"
-              description="Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente."
-            >
-              <Replit />
-            </IntegrationCard>
-
-            <IntegrationCard
-              title="Replit"
-              description="Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente."
-            >
-              <Replit />
-            </IntegrationCard>
-
-            <IntegrationCard
-              title="Magic UI"
-              description="Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente."
-            >
-              <MagicUI />
-            </IntegrationCard>
-
-            <IntegrationCard
-              title="VSCodium"
-              description="Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente."
-            >
-              <VSCodium />
-            </IntegrationCard>
-
-            <IntegrationCard
-              title="MediaWiki"
-              description="Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente."
-            >
-              <MediaWiki />
-            </IntegrationCard>
-
-            <IntegrationCard
-              title="Google PaLM"
-              description="Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente."
-            >
-              <GooglePaLM />
-            </IntegrationCard>
+            {technologies.map((tech) => (
+              <SkillCard
+                key={tech.logoPath}
+                title={tech.title}
+                shortDescription={tech.shortDescription}
+                fullDescription={tech.description}
+                logoPath={tech.logoPath}
+              />
+            ))}
           </div>
         </div>
       </div>
@@ -96,44 +47,73 @@ const Skills: React.FC = () => {
   );
 };
 
-const IntegrationCard = ({
-  title,
-  description,
-  children,
-  link = "https://github.com/meschacirung/cnblocks",
-}: {
+interface SkillCardProps {
   title: string;
-  description: string;
-  children: React.ReactNode;
-  link?: string;
+  shortDescription: string;
+  fullDescription: string;
+  logoPath: string;
+}
+
+const SkillCard: React.FC<SkillCardProps> = ({
+  title,
+  shortDescription,
+  fullDescription,
+  logoPath,
 }) => {
+  const [isModalOpen, setIsModalOpen] = React.useState(false);
+  const { t } = useLanguage();
+
   return (
-    <Card className="p-6">
-      <div className="relative">
-        <div className="*:size-10">{children}</div>
+    <>
+      <Card className="p-6">
+        <div className="relative">
+          <div className="size-10">
+            <Image
+              src={logoPath}
+              alt={title}
+              width={40}
+              height={40}
+              className="size-10 object-contain"
+            />
+          </div>
 
-        <div className="space-y-2 py-6">
-          <h3 className="text-base font-medium">{title}</h3>
-          <p className="text-muted-foreground line-clamp-2 text-sm">
-            {description}
-          </p>
-        </div>
+          <div className="space-y-2 py-6">
+            <h3 className="text-base font-medium">{title}</h3>
+            <p className="text-muted-foreground line-clamp-2 text-sm">
+              {shortDescription}
+            </p>
+          </div>
 
-        <div className="flex gap-3 border-t border-dashed pt-6">
-          <Button
-            asChild
-            variant="secondary"
-            size="sm"
-            className="gap-1 pr-2 shadow-none"
-          >
-            <Link href={link}>
-              Learn More
+          <div className="flex gap-3 border-t border-dashed pt-6">
+            <Button
+              variant="secondary"
+              size="sm"
+              className="gap-1 pr-2 shadow-none"
+              onClick={() => setIsModalOpen(true)}
+            >
+              {t("skillsModal.learnMore")}
               <ChevronRight className="ml-0 size-3.5! opacity-50" />
-            </Link>
-          </Button>
+            </Button>
+          </div>
         </div>
-      </div>
-    </Card>
+      </Card>
+
+      <SkillModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        title={title}
+        description={fullDescription}
+        closeText={t("skillsModal.close")}
+      >
+        <Image
+          src={logoPath}
+          alt={title}
+          width={48}
+          height={48}
+          className="size-12 object-contain"
+        />
+      </SkillModal>
+    </>
   );
 };
 

@@ -100,88 +100,136 @@ const Hero: React.FC = () => {
         <section className="bg-background pb-16 md:pb-32">
           <div className="group relative m-auto max-w-6xl px-6">
             <div className="flex flex-col items-center md:flex-row">
-              <div className="md:max-w-44 md:border-r md:pr-6">
-                <p className="text-end text-sm">Powering the best teams</p>
-              </div>
+              
               <div className="relative py-6 md:w-[calc(100%-11rem)]">
                 <InfiniteSlider speedOnHover={20} speed={40} gap={112}>
                   <div className="flex">
                     <Image
-                      className="mx-auto h-5 w-fit dark:invert"
-                      src="https://html.tailus.io/blocks/customers/nvidia.svg"
-                      alt="Nvidia Logo"
-                      height="20"
-                      width={300}
+                      className="mx-auto h-8 w-fit"
+                      src="/images/logos/react-svgrepo-com.svg"
+                      alt="React Logo"
+                      height="32"
+                      width={100}
                     />
                   </div>
 
                   <div className="flex">
                     <Image
-                      className="mx-auto h-4 w-fit dark:invert"
-                      src="https://html.tailus.io/blocks/customers/column.svg"
-                      alt="Column Logo"
-                      height="16"
-                      width={300}
-
+                      className="mx-auto h-8 w-fit"
+                      src="/images/logos/typescript-2.svg"
+                      alt="TypeScript Logo"
+                      height="32"
+                      width={100}
                     />
                   </div>
+
                   <div className="flex">
                     <Image
-                      className="mx-auto h-4 w-fit dark:invert"
-                      src="https://html.tailus.io/blocks/customers/github.svg"
+                      className="mx-auto h-8 w-fit"
+                      src="/images/logos/javascript-1.svg"
+                      alt="JavaScript Logo"
+                      height="32"
+                      width={100}
+                    />
+                  </div>
+
+                  <div className="flex">
+                    <Image
+                      className="mx-auto h-8 w-fit"
+                      src="/images/logos/nodejs-1.svg"
+                      alt="Node.js Logo"
+                      height="32"
+                      width={100}
+                    />
+                  </div>
+
+                  <div className="flex">
+                    <Image
+                      className="mx-auto h-8 w-fit"
+                      src="/images/logos/Threejs-logo.svg"
+                      alt="Three.js Logo"
+                      height="32"
+                      width={100}
+                    />
+                  </div>
+
+                  <div className="flex">
+                    <Image
+                      className="mx-auto h-8 w-fit"
+                      src="/images/logos/unity-69.svg"
+                      alt="Unity Logo"
+                      height="32"
+                      width={100}
+                    />
+                  </div>
+
+                  <div className="flex">
+                    <Image
+                      className="mx-auto h-8 w-fit"
+                      src="/images/logos/postgresql.svg"
+                      alt="PostgreSQL Logo"
+                      height="32"
+                      width={100}
+                    />
+                  </div>
+
+                  <div className="flex">
+                    <Image
+                      className="mx-auto h-8 w-fit"
+                      src="/images/logos/tailwind-css-2.svg"
+                      alt="Tailwind CSS Logo"
+                      height="32"
+                      width={100}
+                    />
+                  </div>
+
+                  <div className="flex">
+                    <Image
+                      className="mx-auto h-8 w-fit"
+                      src="/images/logos/vitejs.svg"
+                      alt="Vite Logo"
+                      height="32"
+                      width={100}
+                    />
+                  </div>
+
+                  <div className="flex">
+                    <Image
+                      className="mx-auto h-8 w-fit"
+                      src="/images/logos/github-icon-2.svg"
                       alt="GitHub Logo"
-                      height="16"
-                      width={300}
-
-                    />
-                  </div>
-                  <div className="flex">
-                    <Image
-                      className="mx-auto h-5 w-fit dark:invert"
-                      src="https://html.tailus.io/blocks/customers/nike.svg"
-                      alt="Nike Logo"
-                      height="20"
-                      width={300}
-
-                    />
-                  </div>
-                  <div className="flex">
-                    <Image
-                      className="mx-auto h-5 w-fit dark:invert"
-                      src="https://html.tailus.io/blocks/customers/lemonsqueezy.svg"
-                      alt="Lemon Squeezy Logo"
-                      height="20"
-                      width="300"
-                    />
-                  </div>
-                  <div className="flex">
-                    <Image
-                      className="mx-auto h-4 w-fit dark:invert"
-                      src="https://html.tailus.io/blocks/customers/laravel.svg"
-                      alt="Laravel Logo"
-                      height="16"
-                      width={300}
-
-                    />
-                  </div>
-                  <div className="flex">
-                    <Image
-                      className="mx-auto h-7 w-fit dark:invert"
-                      src="https://html.tailus.io/blocks/customers/lilly.svg"
-                      alt="Lilly Logo"
-                      height="28"
-                      width={300}
-
+                      height="32"
+                      width={100}
                     />
                   </div>
 
                   <div className="flex">
                     <Image
-                      className="mx-auto h-6 w-fit dark:invert"
-                      src="https://html.tailus.io/blocks/customers/openai.svg"
-                      alt="OpenAI Logo"
-                      height="24"
-                      width={300}
+                      className="mx-auto h-8 w-fit"
+                      src="/images/logos/styled-components-1.svg"
+                      alt="Styled Components Logo"
+                      height="32"
+                      width={100}
+                    />
+                  </div>
+
+                  <div className="flex">
+                    <Image
+                      className="mx-auto h-8 w-fit"
+                      src="/images/logos/html-1.svg"
+                      alt="HTML Logo"
+                      height="32"
+                      width={100}
+                    />
+                  </div>
+
+                  <div className="flex">
+                    <Image
+                      className="mx-auto h-8 w-fit"
+                      src="/images/logos/css-3.svg"
+                      alt="CSS Logo"
+                      height="32"
+                      width={100}
                     />
                   </div>
                 </InfiniteSlider>
