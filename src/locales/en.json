@@ -1,0 +1,158 @@
+{
+  "hero": {
+    "name": "Popescu Tudor",
+    "title": "Creative Developer",
+    "subtitle": "Not just a coder. I'm a problem-solver, designer, and builder across the software spectrum."
+  },
+  "about": {
+    "title": "About Me",
+    "description1": "I’m a versatile software developer passionate about building meaningful digital experiences across the stack.",
+    "description2": "My skillset spans web and app development (React, TypeScript, JavaScript, C#, C++), 3D and game creation (Unity, ThreeJS), AR/VR, as well as creative work with tools like Adobe Illustrator and DaVinci Resolve."
+  },
+  "projects": {
+    "title": "My Projects"
+  },
+    "contact": {
+    "title": "Get In Touch",
+    "description": "Let's work together to create something amazing",
+
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "An error occurred while sending the message. Please try again.",
+
+    "emailLabel": "Email",
+    "emailDescription": "Have a question or need help? Drop me an email and I’ll respond within 24 hours.",
+    "emailAddress": "popescu_tudor@outlook.com",
+
+    "linkedinLabel": "LinkedIn",
+    "linkedinDescription": "Connect with me on LinkedIn to see my projects and experience.",
+    "linkedinUrl": "https://www.linkedin.com/in/popescu-tudor-540329174/",
+    "linkedinCta": "View Profile",
+
+    "phone": "Phone",
+    "phoneDescription": "Prefer to chat? Give me a call Monday–Friday, 9 AM–5 PM (EET).",
+    "phoneNumber": "+40 750 405 291"
+  },
+  "skills": {
+    "title": "Skills",
+    "softTitle": "Soft Skills",
+    "techTitle": "Technologies",
+    "softSkills": [
+      {
+        "logoPath": "/logos/logo-communication.png",
+        "title": "Communication",
+        "description": "As a developer, I prioritize effective communication to ensure clear and concise interactions with team members and clients. My ability to articulate ideas and document processes helps foster a collaborative environment, reducing errors and enhancing project outcomes. Whether it's discussing project requirements, providing status updates, or collaborating on solutions, I strive to be clear, concise, and professional in all my communications. I also value active listening and feedback, which help in understanding different perspectives and improving the quality of the final product."
+      },
+      {
+        "logoPath": "/logos/logo-problemSolving.png",
+        "title": "Problem Solving",
+        "description": "I thrive on solving complex problems and enjoy the challenge of debugging and finding efficient solutions. My approach involves critical thinking and breaking down issues into manageable parts, allowing me to deliver high-quality software and overcome obstacles effectively. Problem-solving requires a combination of creativity, analytical thinking, and perseverance. I often start by understanding the root cause of an issue, brainstorming potential solutions, and then methodically testing and refining these solutions. This iterative process not only helps in resolving the current problem but also equips me with knowledge and techniques for future challenges."
+      },
+      {
+        "logoPath": "/logos/logo-adaptability.png",
+        "title": "Adaptability",
+        "description": "In the ever-evolving tech industry, adaptability is key. I continuously seek to learn new languages, tools, and frameworks, staying current with industry trends. My willingness to embrace change enables me to provide innovative solutions and remain flexible to project needs. Being adaptable means being open to new ideas and being able to pivot quickly when necessary. It involves a mindset of continuous learning and improvement. By staying adaptable, I can ensure that I am always prepared to meet the changing demands of the industry and deliver solutions that are both relevant and effective."
+      }
+    ]
+  },
+  "experience": {
+    "title": "Work Experience",
+    "jobs": [
+      {
+        "title": "Software Developer",
+        "company": "Self-Employed, PFA",
+        "period": "(03/2025) - Present",
+        "mode": "Full-Time • Remote • Brasov, Romania",
+        "description": "Continued my collaboration with Neomorph Studio through outsourcing projects, providing full development support across Unity and web technologies. In parallel, I worked with direct international clients, including long-term collaborations with partners from Spain, delivering custom software solutions and interactive experiences."
+      },
+      {
+        "title": "Software Developer",
+        "company": "Neomorph Studio",
+        "period": "(08/2021) - (03/2025)",
+        "mode": "Full-Time • Hybrid • Brasov, Romania",
+        "description": "At Neomorph Studio, I work as a Lead Unity and Full-Stack Developer, creating immersive experiences across VR, AR, mobile, desktop, and web platforms.I have led the end-to-end development of multiple interactive applications, from concept to deployment, ensuring performance, visual quality, and user experience.My work combines Unity (C#) for real-time environments with modern web technologies such as React, TypeScript, and AWS to deliver engaging, connected products.A major milestone was my collaboration with PlanetQuest, where I began expanding into web and backend development. I contributed to the PlanetQuest Web platform using React and styled-components for the front end, and Node.js + Express back-end services connected to PostgreSQL.I also supported their Discord backend development, helping synchronize gameplay systems with community tools."
+      },
+      {
+        "title": "Junior Developer",
+        "company": "Neomorph Studio",
+        "period": "(06/2020) - (08/2021)",
+        "mode": "Full-Time • Hybrid • Brasov, Romania",
+        "description": "At Neomorph Studio, I began my professional journey as a Junior Unity Developer, contributing to the development of AR, VR, and native Windows applications. My primary focus was implementing user interfaces and assisting with gameplay features across various interactive projects. I collaborated closely with designers and senior developers to transform UI mockups into functional in-game interfaces and to build intuitive, optimized user experiences within Unity."
+      }
+    ]
+  },
+  "technologies": [
+    {
+      "logoPath": "/logos/logo-unity.png",
+      "title": "Unity Software Development",
+      "description": "Unity is a versatile platform that I use for developing interactive software applications. Its support for multiple platforms and powerful tools for 2D and 3D content creation make it an essential part of my development toolkit. Unity's extensive asset store and community resources are invaluable. With Unity, I have developed a range of applications, from educational simulations to interactive training tools. The engine's robust physics system, animation tools, and extensive scripting capabilities allow me to create engaging and dynamic experiences. Unity's ability to deploy to multiple platforms, including mobile, desktop, and VR/AR devices, ensures that my applications can reach a wide audience."
+    },
+    {
+      "logoPath": "/logos/logo-unityGame.png",
+      "title": "Unity Game Development",
+      "description": "Developing games with Unity is a passion of mine. From designing game mechanics to optimizing performance, I enjoy the entire process of creating engaging and interactive games. Unity's cross-platform capabilities allow me to reach a broad audience with my projects. Game development requires a combination of creativity, technical skill, and attention to detail. In Unity, I can create complex game worlds, implement gameplay logic, and design intuitive user interfaces. The ability to test and iterate quickly helps me refine the game experience and ensure that it is both fun and functional. I also stay engaged with the game development community to learn new techniques and share my knowledge."
+    },
+    {
+      "logoPath": "/logos/logo-unityARVR.png",
+      "title": "Unity VR/AR",
+      "description": "Working on VR and AR projects with Unity has been incredibly rewarding. Unity provides the tools and frameworks necessary to build immersive virtual and augmented reality experiences, pushing the boundaries of user interaction and engagement. VR and AR development involves unique challenges and opportunities. In VR, I can create fully immersive environments that transport users to new worlds. In AR, I can blend digital content with the real world, creating interactive and informative experiences. Unity's support for various VR and AR platforms, combined with its powerful development tools, allows me to explore new ways of engaging and delighting users."
+    },
+    {
+      "logoPath": "/logos/logo-CSharp.png",
+      "title": "Unity C#",
+      "description": "Unity C# development is a crucial part of my skill set. Using C# within Unity allows me to script game mechanics, manage game states, and implement complex systems efficiently. The versatility of C# and its deep integration with Unity's API enable me to create highly interactive and responsive gameplay experiences. With C#, I can handle everything from simple input handling to advanced AI behavior. This language's robust features, such as LINQ and async programming, also enhance the performance and scalability of my projects. My proficiency in Unity C# ensures that I can bring innovative ideas to life, whether for games, simulations, or interactive applications."
+    },
+    {
+      "logoPath": "/logos/logo-React.png",
+      "title": "React",
+      "description": "React is one of my go-to libraries for building user interfaces. Its component-based architecture allows me to create reusable UI elements, manage state efficiently, and build dynamic, responsive web applications. I enjoy leveraging React's capabilities to enhance user experiences. React's ecosystem, including tools like Redux for state management and React Router for navigation, provides a robust framework for building scalable applications. By using React, I can ensure that my applications are not only visually appealing but also performant and maintainable. I also stay updated with the latest features and best practices in React to ensure that I am using the most efficient and effective techniques."
+    },
+    {
+      "logoPath": "/logos/logo-ThreeJS.png",
+      "title": "ThreeJS",
+      "description": "ThreeJS has opened up exciting possibilities for me in creating 3D graphics for the web. Using WebGL, I can build complex 3D scenes and animations, offering immersive experiences directly in the browser. It's a powerful tool for adding depth and interactivity to web projects. With ThreeJS, I have created interactive 3D visualizations, simulations, and games. The ability to manipulate 3D objects, apply textures, and create realistic lighting effects has allowed me to push the boundaries of what is possible on the web. Whether it's for educational tools, marketing experiences, or entertainment, ThreeJS provides the versatility and power needed to bring ideas to life."
+    },
+    {
+      "logoPath": "/logos/logo-typescript.png",
+      "title": "TypeScript",
+      "description": "TypeScript enhances my development process by adding type safety to JavaScript. It helps me catch errors early, improves code maintainability, and provides robust tooling support. I appreciate how TypeScript enables me to write more reliable and scalable code. By using TypeScript, I can define clear interfaces and types, which makes my code more predictable and easier to debug. This not only improves the quality of the code but also makes it easier for other developers to understand and work with. TypeScript's integration with modern JavaScript frameworks and libraries makes it a valuable addition to any development project."
+    },
+    {
+      "logoPath": "/logos/logo-javascript.png",
+      "title": "JavaScript",
+      "description": "JavaScript is a fundamental technology for web development, and I have extensive experience using it to build dynamic and interactive web applications. With JavaScript, I can manipulate the DOM, handle events, and make asynchronous requests to create responsive user interfaces. I am well-versed in modern JavaScript features such as ES6+ syntax, promises, and async/await. Additionally, I have experience with various JavaScript frameworks and libraries, which allows me to choose the right tools for different projects. My deep understanding of JavaScript enables me to write clean, efficient, and maintainable code, enhancing the overall user experience."
+    },
+    {
+      "logoPath": "/logos/logo-CPlusPlus.png",
+      "title": "C++",
+      "description": "C++ has been a cornerstone in my programming journey. Its performance and efficiency make it ideal for systems programming and game development. Mastering C++ has allowed me to optimize code, manage memory effectively, and tackle high-speed processing tasks. C++ is a powerful language that provides fine-grained control over system resources. This control is essential for developing high-performance applications, such as real-time simulations and games. By understanding C++'s advanced features, such as templates, polymorphism, and multithreading, I can write efficient and scalable code. My experience with C++ has also given me a deeper understanding of computer science principles and low-level programming concepts."
+    },
+    {
+      "logoPath": "/logos/logo-adobeIllustrator.png",
+      "title": "Adobe Illustrator",
+      "description": "Adobe Illustrator is my tool of choice for creating vector graphics and illustrations. Its robust drawing, coloring, and typography tools enable me to produce high-quality visual content, essential for both web and print design projects. Illustrator's precision and flexibility allow me to create detailed and scalable graphics, from logos and icons to complex illustrations and infographics. The ability to work with vectors ensures that my designs remain crisp and clear at any size. I also appreciate Illustrator's integration with other Adobe Creative Cloud applications, which allows me to streamline my workflow and create cohesive visual designs across different media."
+    },
+    {
+      "logoPath": "/logos/logo-davinci.png",
+      "title": "DaVinci Resolve",
+      "description": "DaVinci Resolve is my go-to software for video editing. Its advanced editing, color correction, and audio post-production capabilities allow me to create polished videos with professional visual effects and seamless transitions. I enjoy the creativity and precision it offers. Video editing with DaVinci Resolve involves more than just cutting and arranging clips. It includes color grading to enhance the visual appeal, adding special effects to create stunning visuals, and fine-tuning audio to ensure clarity and impact. DaVinci Resolve's comprehensive set of tools and its intuitive interface make it possible to produce high-quality videos that tell compelling stories and engage audiences."
+    }
+  ],
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "downloadCV": {
+    "download-button": "Download CV",
+    "view-button": "View CV",
+    "title": "Download my CV",
+    "description": "Download my latest CV to see my experience and skills."
+  }
+}

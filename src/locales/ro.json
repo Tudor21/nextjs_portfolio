@@ -1,0 +1,158 @@
+{
+  "hero": {
+    "name": "Popescu Tudor",
+    "title": "Dezvoltator Creativ",
+    "subtitle": "Nu sunt doar programator, ci și designer și arhitect de soluții software moderne, mereu orientat spre găsirea celor mai bune rezolvări."
+  },
+  "about": {
+    "title": "Despre mine",
+    "description1": "Sunt un dezvoltator software versatil, pasionat de crearea unor experiențe digitale relevante și de impact, pe întregul spectru tehnologic.",
+    "description2": "Competențele mele acoperă dezvoltarea web și de aplicații (React, TypeScript, JavaScript, C#, C++), realizarea de conținut 3D și jocuri (Unity, ThreeJS), AR/VR, precum și activități creative cu instrumente precum Adobe Illustrator și DaVinci Resolve."
+  },
+  "projects": {
+    "title": "Proiectele mele"
+  },
+   "contact": {
+    "title": "Contactează-mă",
+    "description": "Hai să construim împreună ceva grozav",
+
+    "name": "Nume",
+    "email": "Email",
+    "message": "Mesaj",
+    "send": "Trimite mesajul",
+    "sending": "Se trimite...",
+    "success": "Mesajul a fost trimis cu succes!",
+    "error": "A apărut o eroare la trimiterea mesajului. Încearcă din nou, te rog.",
+
+    "emailLabel": "Email",
+    "emailDescription": "Ai o întrebare sau ai nevoie de ajutor? Trimite-mi un email și îți răspund în 24 de ore.",
+    "emailAddress": "popescu_tudor@outlook.com",
+
+    "linkedinLabel": "LinkedIn",
+    "linkedinDescription": "Conectează-te cu mine pe LinkedIn pentru a vedea proiectele și experiența mea.",
+    "linkedinUrl": "https://www.linkedin.com/in/popescu-tudor-540329174/",
+    "linkedinCta": "Vezi profilul",
+
+    "phone": "Telefon",
+    "phoneDescription": "Preferi să vorbim? Sună-mă de luni până vineri, 9:00–17:00 (EET).",
+    "phoneNumber": "+40 750 405 291"
+  },
+  "skills": {
+    "title": "Competențe",
+    "softTitle": "Abilități soft",
+    "techTitle": "Tehnologii",
+    "softSkills": [
+      {
+        "logoPath": "/logos/logo-communication.png",
+        "title": "Comunicare",
+        "description": "În calitate de dezvoltator, acord o importanță majoră comunicării eficiente, pentru a asigura interacțiuni clare și concise cu membrii echipei și cu clienții. Abilitatea mea de a transmite idei și de a documenta procese contribuie la crearea unui mediu colaborativ, reducând erorile și optimizând rezultatele proiectului. Fie că discut cerințe, ofer actualizări sau colaborez la soluții, mă străduiesc să fiu clar, concis și profesionist în orice context. Valorizez ascultarea activă și feedback-ul constructiv, acestea fiind esențiale pentru înțelegerea perspectivelor diferite și pentru creșterea calității rezultatului final."
+      },
+      {
+        "logoPath": "/logos/logo-problemSolving.png",
+        "title": "Rezolvare de probleme",
+        "description": "Mă motivează provocările complexe și găsirea soluțiilor eficiente. Abordarea mea presupune gândire critică și segmentarea problemelor în elemente gestionabile, ceea ce mă ajută să ofer software de calitate și să depășesc obstacolele cu profesionalism. Rezolvarea problemelor implică creativitate, analiză și perseverență. Întotdeauna încep prin a identifica sursa problemei, analizez soluții posibile, iar apoi le testez și rafinez metodic. Acest proces iterativ nu doar rezolvă situația curentă, ci îmbogățește cunoștințele mele pentru viitoare provocări."
+      },
+      {
+        "logoPath": "/logos/logo-adaptability.png",
+        "title": "Adaptabilitate",
+        "description": "Într-o industrie tehnologică în permanentă schimbare, adaptabilitatea este esențială. Sunt mereu deschis către învățarea de noi limbaje, instrumente și framework-uri, rămânând conectat la tendințele actuale din domeniu. Flexibilitatea mea mă ajută să furnizez soluții inovatoare și să răspund rapid cerințelor variate ale proiectelor. Adaptabilitatea presupune deschidere către idei noi și capacitatea de a schimba direcția rapid, atunci când situația o cere. Adopt această mentalitate de învățare continuă pentru a asigura rezultate relevante și eficiente."
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experiență Profesională",
+    "jobs": [
+      {
+        "title": "Software Developer",
+        "company": "PFA / Independent",
+        "period": "(03/2025) - Prezent",
+        "mode": "Normă întreagă • De la distanță • Brașov, Romania",
+        "description": "Mi-am continuat colaborarea cu Neomorph Studio prin proiecte de outsourcing, oferind suport complet de dezvoltare pe partea de Unity și web. În paralel, am lucrat cu clienți internaționali direcți, inclusiv colaborări pe termen lung cu parteneri din Spania, pentru care am dezvoltat soluții software personalizate și experiențe interactive."
+      },
+      {
+        "title": "Software Developer",
+        "company": "Neomorph Studio",
+        "period": "(08/2021) - (03/2025)",
+        "mode": "Normă întreagă • Program hybrid • Brașov, Romania",
+        "description": "În cadrul companiei Neomorph Studio, am lucrat ca Lead Unity & Full-Stack Developer, creând experiențe imersive pe platforme VR, AR, mobile, desktop și web. Am coordonat dezvoltarea completă a mai multor aplicații interactive, de la concept la lansare, asigurând performanța, calitatea vizuală și experiența utilizatorului. Activitatea mea combină Unity (C#) pentru medii 3D în timp real cu tehnologii web moderne precum React, TypeScript și AWS, pentru a oferi produse conectate și captivante. Un moment important în carieră a fost colaborarea cu PlanetQuest, unde am început să mă specializez și în dezvoltare web și backend. Am contribuit la platforma PlanetQuest Web, folosind React și styled-components pentru front-end, iar pe partea de back-end am lucrat cu Node.js + Express, conectate la o bază de date PostgreSQL. De asemenea, am susținut dezvoltarea backend-ului Discord, ajutând la sincronizarea sistemelor de gameplay cu instrumentele comunității."
+      },
+      {
+        "title": "Junior Developer",
+        "company": "Neomorph Studio",
+        "period": "(06/2020) - (08/2021)",
+        "mode": "Normă întreagă • Program hybrid • Brașov, Romania",
+        "description": "Mi-am început cariera profesională la Neomorph Studio, contribuind la dezvoltarea de aplicații AR, VR și Windows native. Am lucrat la implementarea interfețelor UI și la mecanici de gameplay pentru proiecte interactive de mici dimensiuni, colaborând strâns cu designerii și programatorii seniori."
+      }
+    ]
+  },
+  "technologies": [
+    {
+      "logoPath": "/logos/logo-unity.png",
+      "title": "Dezvoltare software cu Unity",
+      "description": "Unity reprezintă o platformă esențială în activitatea mea de dezvoltare a aplicațiilor interactive. Datorită suportului multi-platformă și instrumentelor avansate pentru conținut 2D și 3D, Unity mă ajută să realizez proiecte educaționale, simulări și soluții de training. Sistemul de fizică robust, instrumentele de animație și scriptarea extinsă permit crearea unor experiențe captivante, dinamice și de înaltă calitate."
+    },
+    {
+      "logoPath": "/logos/logo-unityGame.png",
+      "title": "Dezvoltare jocuri Unity",
+      "description": "Dezvoltarea de jocuri cu Unity reprezintă o adevărată pasiune pentru mine. De la proiectarea mecanicilor de joc, până la optimizarea performanței, mă implic în toate etapele pentru a crea jocuri captivante și interactive. Datorită posibilității de publicare pe mai multe platforme, pot ajunge cu ușurință la un public variat. Particip activ în comunitatea dezvoltatorilor pentru a fi mereu la curent cu cele mai noi tehnici și bune practici."
+    },
+    {
+      "logoPath": "/logos/logo-unityARVR.png",
+      "title": "Unity VR/AR",
+      "description": "Dezvoltarea de proiecte VR și AR cu Unity este o activitate deosebit de satisfăcătoare. Unity oferă instrumente și framework-uri pentru crearea unor experiențe virtuale și augmentate captivante, ce depășesc limitele interacțiunii clasice. În VR pot construi medii complet imersive, iar în AR pot îmbina lumea digitală cu realitatea, pentru experiențe interactive și inovatoare."
+    },
+    {
+      "logoPath": "/logos/logo-CSharp.png",
+      "title": "Unity C#",
+      "description": "Programarea în C# în cadrul Unity este fundamentală pentru activitatea mea. Utilizând C#, implementez mecanici de joc, gestionez stări și dezvolt sisteme complexe cu eficiență. Integrarea avansată cu API-ul Unity îmi permite să creez gameplay interactiv și responsiv, de la funcționalități simple la comportamente AI avansate, sporind performanța și scalabilitatea aplicațiilor."
+    },
+    {
+      "logoPath": "/logos/logo-React.png",
+      "title": "React",
+      "description": "React este una dintre bibliotecile mele de bază pentru dezvoltarea interfețelor de utilizator. Arhitectura pe bază de componente permite crearea de elemente UI reutilizabile, gestionarea eficientă a stării și realizarea unor aplicații web dinamice și responsive. Ecosistemul React, inclusiv instrumente precum Redux și React Router, asigură scalabilitatea și întreținerea facilă a aplicațiilor."
+    },
+    {
+      "logoPath": "/logos/logo-ThreeJS.png",
+      "title": "ThreeJS",
+      "description": "ThreeJS mi-a oferit oportunitatea de a crea grafică 3D inovatoare direct în browser. Folosind WebGL, pot construi scene și animații 3D complexe, oferind experiențe vizuale captivante și interactive. ThreeJS este un instrument esențial pentru realizarea de vizualizări, simulări și jocuri 3D, aducând valoare adăugată proiectelor digitale."
+    },
+    {
+      "logoPath": "/logos/logo-typescript.png",
+      "title": "TypeScript",
+      "description": "TypeScript aduce un plus de siguranță și robustețe procesului meu de dezvoltare, asigurând verificarea tipurilor la compilare. Mă ajută să identific rapid erorile, să scriu cod mai întreținut și să folosesc instrumente avansate de dezvoltare. Definirea clară a tipurilor și integrarea cu framework-urile moderne fac din TypeScript o alegere ideală pentru proiecte scalabile."
+    },
+    {
+      "logoPath": "/logos/logo-javascript.png",
+      "title": "JavaScript",
+      "description": "JavaScript este fundamentul dezvoltării web, iar experiența mea extinsă cu acest limbaj îmi permite să creez aplicații web dinamice și interactive. Folosesc JavaScript pentru a manipula DOM-ul, a gestiona evenimente și a realiza interfețe responsive. Sunt la curent cu ultimele standarde și framework-uri pentru a alege mereu cele mai potrivite soluții tehnologice."
+    },
+    {
+      "logoPath": "/logos/logo-CPlusPlus.png",
+      "title": "C++",
+      "description": "C++ a reprezentat o etapă definitorie în formarea mea profesională. Datorită performanței și eficienței, este ideal pentru dezvoltarea de aplicații de sistem și jocuri. Prin stăpânirea C++, optimizez codul, gestionez eficient resursele și pot aborda proiecte ce necesită procesare rapidă, dobândind totodată o înțelegere aprofundată a principiilor de bază ale informaticii."
+    },
+    {
+      "logoPath": "/logos/logo-adobeIllustrator.png",
+      "title": "Adobe Illustrator",
+      "description": "Adobe Illustrator este instrumentul meu principal pentru realizarea graficii vectoriale și a ilustrațiilor. Funcțiile sale avansate de desen, colorare și tipografie mă ajută să produc materiale vizuale de înaltă calitate, atât pentru web cât și pentru print. Integrarea cu suita Adobe Creative Cloud facilitează realizarea unui workflow eficient și a unui design coerent pe toate mediile."
+    },
+    {
+      "logoPath": "/logos/logo-davinci.png",
+      "title": "DaVinci Resolve",
+      "description": "DaVinci Resolve este soluția mea preferată pentru editarea video. Cu ajutorul său, pot realiza montaj avansat, corecție de culoare și post-producție audio la nivel profesional. Îmi oferă creativitate, precizie și control total asupra produsului final, asigurând materiale video cu impact și prezentare impecabilă."
+    }
+  ],
+  "navigation": {
+    "home": "Acasă",
+    "about": "Despre",
+    "skills": "Competențe",
+    "projects": "Proiecte",
+    "contact": "Contact"
+  },
+  "downloadCV": {
+    "download-button": "Descărcați CV",
+    "view-button": "Vizualizați CV",
+    "title": "Descărcați CV",
+    "description": "Descărcați CV-ul meu pentru a vedea experiența și competențele mele."
+  }
+}
