@@ -1,28 +1,63 @@
 "use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { InfiniteSlider } from "@/components/ui/infinite-slider";
 import { ProgressiveBlur } from "@/components/ui/progressive-blur";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/providers/language-provider";
-import HeroThreeScene from "@/components/sections/HeroThreeScene";
+import dynamic from "next/dynamic";
+
+// Dynamically import HeroThreeScene with SSR disabled
+const HeroThreeScene = dynamic(() => import("@/components/sections/HeroThreeScene"), {
+  ssr: false,
+});
 
 const Hero: React.FC = () => {
   const { t } = useLanguage();
+  const [isMobile, setIsMobile] = useState(true);
+
+  useEffect(() => {
+    // Check if we're on mobile (lg breakpoint: 1024px)
+    const checkIsMobile = () => {
+      setIsMobile(window.innerWidth < 1024);
+    };
+
+    // Check on mount
+    checkIsMobile();
+
+    // Debounce resize events to avoid excessive re-renders
+    let timeoutId: NodeJS.Timeout;
+    const handleResize = () => {
+      clearTimeout(timeoutId);
+      timeoutId = setTimeout(checkIsMobile, 150);
+    };
+
+    // Listen for resize events
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      clearTimeout(timeoutId);
+    };
+  }, []);
+
   return (
     <>
       <main className="overflow-x-hidden">
         <section id="home" className="relative scroll-mt-24">
           {/* Mobile: Full background */}
-          <div className="absolute inset-0 -z-10 lg:hidden">
-            <HeroThreeScene />
-          </div>
+          {isMobile && (
+            <div className="absolute inset-0 -z-10">
+              <HeroThreeScene isMobile={true} />
+            </div>
+          )}
           
           {/* Desktop: Right side only */}
-          <div className="absolute inset-y-0 right-0 -z-10 hidden w-1/2 lg:block">
-            <HeroThreeScene />
-          </div>
+          {!isMobile && (
+            <div className="absolute inset-y-0 right-0 -z-10 w-1/2">
+              <HeroThreeScene isMobile={false} />
+            </div>
+          )}
           
           <div className="pb-24 pt-12 md:pb-32 lg:pb-56 lg:pt-44">
             <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:flex-row lg:items-center">
