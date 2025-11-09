@@ -5,6 +5,7 @@ import { Menu, X, Globe } from 'lucide-react'
 import React from 'react'
 import Button from './ui/button'
 import { useLanguage } from '@/providers/language-provider'
+import { CVDownloadButton } from './ui/cv-download-button'
 
 
 const menuItems = [
@@ -137,11 +138,7 @@ const NavBar: React.FC = () => {
 
               {/* Auth buttons */}
               <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
-                <Button asChild variant="outline" size="sm">
-                  <Link href="#downloadcv" onClick={(e) => handleNavClick(e, 'downloadcv')}>
-                    <span>{t("downloadCV.download-button")}</span>
-                  </Link>
-                </Button>
+                <CVDownloadButton variant="outline" size="sm" />
                 <Button asChild size="sm">
                   <Link href="#contact" onClick={(e) => handleNavClick(e, 'contact')}>
                     <span>{t("navigation.contact")}</span>

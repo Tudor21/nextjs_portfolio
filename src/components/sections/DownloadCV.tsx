@@ -1,10 +1,15 @@
 "use client"
-import { Download } from "lucide-react";
+import * as React from "react";
+import { Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/providers/language-provider";
+import { CVDownloadButton } from "@/components/ui/cv-download-button";
+import { CVViewerModal } from "@/components/ui/cv-viewer-modal";
 
 const DownloadCV: React.FC = () => {
   const { t } = useLanguage();
+  const [isViewModalOpen, setIsViewModalOpen] = React.useState(false);
+
   return (
     <section id="downloadcv" className="scroll-mt-24">
       <div className="pb-24 pt-12 md:pb-32 lg:pb-56 lg:pt-44">
@@ -19,21 +24,23 @@ const DownloadCV: React.FC = () => {
           </div>
 
           <div className="mx-auto flex gap-4 items-center justify-center max-w-4xl">
-            <Button size="lg" asChild>
-              <a href={t('downloadCV.download-button')}>
-                <Download className="h-4 w-4" />
-                {t('downloadCV.download-button')}
-              </a>
-            </Button>
-            <Button size="lg" variant="outline" asChild>
-              <a href={t('downloadCV.view-button')}>  
-                <Download className="h-4 w-4" />
-                {t('downloadCV.view-button')}
-              </a>
+            <CVDownloadButton size="lg" />
+            <Button 
+              size="lg" 
+              variant="outline"
+              onClick={() => setIsViewModalOpen(true)}
+            >
+              <Eye className="h-4 w-4" />
+              {t('downloadCV.view-button')}
             </Button>
           </div>
         </div>
       </div>
+
+      <CVViewerModal 
+        isOpen={isViewModalOpen} 
+        onClose={() => setIsViewModalOpen(false)} 
+      />
     </section>
   );
 };
