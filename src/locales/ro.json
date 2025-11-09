@@ -206,7 +206,17 @@
     "download-button": "Descărcați CV",
     "view-button": "Vizualizați CV",
     "title": "Descărcați CV",
-    "description": "Descărcați CV-ul meu pentru a vedea experiența și competențele mele."
+    "description": "Descărcați CV-ul meu pentru a vedea experiența și competențele mele.",
+    "english": "Engleză",
+    "romanian": "Română",
+    "view-title": "Vizualizați CV",
+    "select-language": "Selectați o limbă pentru a vizualiza CV-ul:",
+    "english-description": "Vezi CV-ul în engleză",
+    "romanian-description": "Vezi CV-ul în română",
+    "change-language": "Schimbă limba",
+    "preview-unavailable": "Previzualizare indisponibilă",
+    "download-to-view": "Vă rugăm să descărcați fișierul pentru a-l vizualiza",
+    "close": "Închide"
   },
   "skillsModal": {
     "learnMore": "Află mai mult",

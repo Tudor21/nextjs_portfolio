@@ -6,6 +6,7 @@ import { InfiniteSlider } from "@/components/ui/infinite-slider";
 import { ProgressiveBlur } from "@/components/ui/progressive-blur";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/providers/language-provider";
+import { CVDownloadButton } from "@/components/ui/cv-download-button";
 import dynamic from "next/dynamic";
 
 // Dynamically import HeroThreeScene with SSR disabled
@@ -78,17 +79,11 @@ const Hero: React.FC = () => {
                       <span className="text-nowrap">{t("navigation.contact")}</span>
                     </Link>
                   </Button>
-                  <Button
-                    key={2}
-                    asChild
+                  <CVDownloadButton
                     size="lg"
                     variant="outline"
                     className="px-5 text-base"
-                  >
-                    <Link href="#downloadcv">
-                      <span className="text-nowrap">{t("downloadCV.download-button")}</span>
-                    </Link>
-                  </Button>
+                  />
                 </div>
               </div>
               <div className="relative mt-8 h-56 w-full sm:h-96 lg:mt-0 lg:w-1/2 lg:h-0">

@@ -206,7 +206,17 @@
     "download-button": "Download CV",
     "view-button": "View CV",
     "title": "Download my CV",
-    "description": "Download my latest CV to see my experience and skills."
+    "description": "Download my latest CV to see my experience and skills.",
+    "english": "English",
+    "romanian": "Romanian",
+    "view-title": "View CV",
+    "select-language": "Select a language to view your CV:",
+    "english-description": "View CV in English",
+    "romanian-description": "View CV in Romanian",
+    "change-language": "Change Language",
+    "preview-unavailable": "Preview unavailable",
+    "download-to-view": "Please download the file to view it",
+    "close": "Close"
   },
   "skillsModal": {
     "learnMore": "Learn More",
