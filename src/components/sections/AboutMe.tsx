@@ -1,45 +1,40 @@
 "use client"
 import { useLanguage } from "@/providers/language-provider";
-import { Cpu, Zap } from "lucide-react";
+import AboutMeThreeScene from "../three/AboutMeThreeScene";
 
 const AboutMe: React.FC = () => {
   const { t } = useLanguage();
   return (
-    <section>
+    <section className="relative">
+      {/* Mobile: Full background */}
+      <div className="absolute inset-0 -z-10 md:hidden">
+        <AboutMeThreeScene />
+      </div>
+      
+      {/* Desktop: Right side only */}
+      <div className="absolute inset-y-0 right-0 -z-10 hidden md:block md:w-1/2">
+        <AboutMeThreeScene />
+      </div>
+      
       <div className="pb-24 pt-12 md:pb-32 lg:pb-56 lg:pt-44">
-        <div className="relative mx-auto max-w-6xl px-6 lg:block">
-          <h2 className="relative mb-4 z-10 max-w-xl text-4xl font-medium lg:text-5xl">
-            {t("about.title")}
-          </h2>
-          <div className="relative">
+        <div className="relative mx-auto max-w-6xl px-6">
+          <div className="relative flex items-center md:flex-row md:gap-8 lg:gap-12">
+            {/* Content - Left side on desktop */}
             <div className="relative z-10 flex flex-col gap-4 md:w-1/2">
+              <h2 className="relative z-10 mb-4 max-w-xl text-4xl font-medium lg:text-5xl">
+                {t("about.title")}
+              </h2>
               <p>
                 {t("about.description1")}
               </p>
               <p>
                 {t("about.description2")}
               </p>
-
-              <div className="grid grid-cols-2 gap-3 pt-6 sm:gap-4">
-                <div className="space-y-3">
-                  <div className="flex items-center gap-2">
-                    <Zap className="size-4" />
-                    <h3 className="text-sm font-medium">Faaast</h3>
-                  </div>
-                  <p className="text-muted-foreground text-sm">
-                    It supports an entire helping developers and innovate.
-                  </p>
-                </div>
-                <div className="space-y-2">
-                  <div className="flex items-center gap-2">
-                    <Cpu className="size-4" />
-                    <h3 className="text-sm font-medium">Powerful</h3>
-                  </div>
-                  <p className="text-muted-foreground text-sm">
-                    It supports an entire helping developers and businesses.
-                  </p>
-                </div>
-              </div>
+            </div>
+            
+            {/* Spacer for right side on desktop */}
+            <div className="relative hidden md:block md:w-1/2 md:h-[360px] lg:h-[520px]">
+              {/* 3D scene renders in absolute positioned container */}
             </div>
           </div>
         </div>

@@ -8,11 +8,16 @@ Source: https://sketchfab.com/3d-models/abstract-rainbow-translucent-pendant-fd7
 Title: Abstract Rainbow Translucent Pendant
 */
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF('/abstract_rainbow_translucent_pendant-transformed.glb')
+  const { nodes, materials } = useGLTF('/3d-scenes/abstract_rainbow_translucent_pendant-transformed.glb')
+ 
+  useEffect(() => {
+    if (!materials || !materials.Material_0) return
+    materials.Material_0.color.set('#ff0000')
+  }, [materials])
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes['Hedra001_Material_#0_0'].geometry} material={materials.Material_0} position={[-0.016, 0, 0.088]} rotation={[-Math.PI / 2, 0, 0]} scale={0.016} />
@@ -20,4 +25,4 @@ export function Model(props) {
   )
 }
 
-useGLTF.preload('/abstract_rainbow_translucent_pendant-transformed.glb')
+useGLTF.preload('/3d-scenes/abstract_rainbow_translucent_pendant-transformed.glb')
