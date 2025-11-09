@@ -31,11 +31,6 @@ const AboutMe: React.FC = () => {
                 {t("about.description2")}
               </p>
             </div>
-            
-            {/* Spacer for right side on desktop */}
-            <div className="relative hidden md:block md:w-1/2 md:h-[360px] lg:h-[520px]">
-              {/* 3D scene renders in absolute positioned container */}
-            </div>
           </div>
         </div>
       </div>
