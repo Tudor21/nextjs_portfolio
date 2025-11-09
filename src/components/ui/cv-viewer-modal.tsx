@@ -92,10 +92,10 @@ export function CVViewerModal({ isOpen, onClose }: CVViewerModalProps) {
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: 20 }}
               transition={{ duration: 0.2, ease: [0.4, 0, 0.2, 1] }}
-              className="relative w-full max-w-2xl max-h-[90vh] overflow-hidden"
+              className="relative w-full max-w-2xl max-h-[90vh] overflow-hidden md:w-screen md:h-screen md:max-w-none md:max-h-none md:rounded-none md:m-0"
               onClick={(e) => e.stopPropagation()}
             >
-              <Card className="relative flex flex-col max-h-[90vh]">
+              <Card className="relative flex flex-col h-full md:h-screen">
                 {/* Header */}
                 <motion.div
                   initial={{ opacity: 0, y: -10 }}
@@ -168,7 +168,7 @@ export function CVViewerModal({ isOpen, onClose }: CVViewerModalProps) {
                       </div>
                     </div>
                   ) : (
-                    <div className="space-y-4">
+                    <div className="space-y-4 h-full flex flex-col">
                       <div className="flex items-center justify-between p-4 rounded-lg bg-muted/50">
                         <div>
                           <p className="font-medium">
@@ -189,7 +189,7 @@ export function CVViewerModal({ isOpen, onClose }: CVViewerModalProps) {
                         </Button>
                       </div>
                       
-                      <div className="aspect-[8.5/11] border rounded-lg bg-muted/30 overflow-hidden">
+                      <div className="flex-1 border rounded-lg bg-muted/30 overflow-hidden md:h-full">
                         {cvUrl ? (
                           <iframe
                             src={cvUrl}
