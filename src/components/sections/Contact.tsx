@@ -145,7 +145,7 @@ try {
   }
 
   return (
-    <section>
+    <section id="contact" className="scroll-mt-24">
       <div className="pb-24 pt-12 md:pb-32 lg:pb-56 lg:pt-44">
         <div className="relative mx-auto max-w-6xl px-6 lg:block">
           {/* Heading */}

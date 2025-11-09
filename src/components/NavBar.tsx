@@ -8,11 +8,11 @@ import { useLanguage } from '@/providers/language-provider'
 
 
 const menuItems = [
-  { name: 'Home', href: '#link' },
-  { name: 'About', href: '#link' },
-  { name: 'Skills', href: '#link' },
-  { name: 'Projects', href: '#link' },
-  { name: 'Contact', href: '#link' },
+  { name: 'Home', href: '#home', id: 'home' },
+  { name: 'About', href: '#about', id: 'about' },
+  { name: 'Skills', href: '#skills', id: 'skills' },
+  { name: 'Projects', href: '#projects', id: 'projects' },
+  { name: 'Contact', href: '#contact', id: 'contact' },
 ]
 const NavBar: React.FC = () => {
   const [menuState, setMenuState] = React.useState(false)
@@ -24,6 +24,19 @@ const NavBar: React.FC = () => {
     setLanguage(lang)
     document.cookie = `lang=${lang}; path=/; max-age=31536000; samesite=lax`
     document.documentElement.lang = lang
+  }
+
+  const handleNavClick = (e: React.MouseEvent, id: string) => {
+    e.preventDefault()
+    setMenuState(false)
+    if (id === 'home') {
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+      return
+    }
+    const el = document.getElementById(id)
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
   }
 
   const LangSwitcher = (
@@ -89,6 +102,7 @@ const NavBar: React.FC = () => {
                     <li key={index}>
                       <Link
                         href={item.href}
+                        onClick={(e) => handleNavClick(e, item.id)}
                         className="text-muted-foreground hover:text-accent-foreground block duration-150"
                       >
                         <span>{item.name}</span>
@@ -108,6 +122,7 @@ const NavBar: React.FC = () => {
                     <li key={index}>
                       <Link
                         href={item.href}
+                        onClick={(e) => handleNavClick(e, item.id)}
                         className="text-muted-foreground hover:text-accent-foreground block duration-150"
                       >
                         <span>{item.name}</span>
@@ -123,12 +138,12 @@ const NavBar: React.FC = () => {
               {/* Auth buttons */}
               <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
                 <Button asChild variant="outline" size="sm">
-                  <Link href="#">
+                  <Link href="#downloadcv" onClick={(e) => handleNavClick(e, 'downloadcv')}>
                     <span>{t("downloadCV.download-button")}</span>
                   </Link>
                 </Button>
                 <Button asChild size="sm">
-                  <Link href="#">
+                  <Link href="#contact" onClick={(e) => handleNavClick(e, 'contact')}>
                     <span>{t("navigation.contact")}</span>
                   </Link>
                 </Button>

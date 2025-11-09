@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
   return (
     <>
       <main className="overflow-x-hidden">
-        <section className="relative">
+        <section id="home" className="relative scroll-mt-24">
           {/* Mobile: Full background */}
           <div className="absolute inset-0 -z-10 lg:hidden">
             <HeroThreeScene />
@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
 
                 <div className="mt-12 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start">
                   <Button asChild size="lg" className="px-5 text-base">
-                    <Link href="#link">
+                    <Link href="#contact">
                       <span className="text-nowrap">{t("navigation.contact")}</span>
                     </Link>
                   </Button>
@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
                     variant="outline"
                     className="px-5 text-base"
                   >
-                    <Link href="#link">
+                    <Link href="#downloadcv">
                       <span className="text-nowrap">{t("downloadCV.download-button")}</span>
                     </Link>
                   </Button>

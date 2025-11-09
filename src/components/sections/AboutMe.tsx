@@ -5,7 +5,7 @@ import AboutMeThreeScene from "../three/AboutMeThreeScene";
 const AboutMe: React.FC = () => {
   const { t } = useLanguage();
   return (
-    <section className="relative">
+    <section id="about" className="relative scroll-mt-24">
       {/* Mobile: Full background */}
       <div className="absolute inset-0 -z-10 md:hidden">
         <AboutMeThreeScene />

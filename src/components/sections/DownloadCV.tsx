@@ -6,7 +6,7 @@ import { useLanguage } from "@/providers/language-provider";
 const DownloadCV: React.FC = () => {
   const { t } = useLanguage();
   return (
-    <section>
+    <section id="downloadcv" className="scroll-mt-24">
       <div className="pb-24 pt-12 md:pb-32 lg:pb-56 lg:pt-44">
         <div className="relative mx-auto max-w-6xl px-6 lg:block">
           <div className="mb-20 text-center">
